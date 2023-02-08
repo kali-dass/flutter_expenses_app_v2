@@ -31,10 +31,12 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Card(
-              child: Text('Chart Area'),
+              child: Container(width: 100, child: Text('Chart Area')),
+              elevation: 5,
             ),
             Card(
               child: Text('List of Transations'),
+              elevation: 5,
             )
           ],
         ),
